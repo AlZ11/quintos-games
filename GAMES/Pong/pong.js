@@ -61,6 +61,7 @@ function draw() {
 
 	text('Score:' + point2, 2, 24);
 	text('Score:' + point1, 2, 1);
+
 	// if the ball goes off the left side
 	if (ball.x < -95) {
 		ball.direction = random(-60, 80);
